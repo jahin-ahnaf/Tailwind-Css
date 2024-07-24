@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .input-primary{
+        @apply focus:outline-2 dark:bg-zinc-700 rounded-md px-2 valid:outline-gray-400 outline-1 outline p-1 placeholder-gray-400 block mt-2 mb-2
+    }
+    .btn-primary{
+        @apply rounded-md bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 pt-1 pb-1 pl-2 pr-2 mt-2 mb-2 hover:bg-transparent hover:text-zinc-900 hover:outline-zinc-900 dark:hover:text-white dark:hover:outline-white outline outline-1
+    }
+}
